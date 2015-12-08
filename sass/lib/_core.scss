@@ -1,0 +1,41 @@
+// Core (Main Style)
+
+body {
+  font-size: 120%;
+}
+
+.section {
+    margin: 4em 0;
+}
+
+.hero {
+  background: url('../images/hero.jpg') no-repeat center;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 3em 0;
+  .btn {
+    color: #fff;
+    border-color: #fff;
+    &:hover {
+        color: $link;
+        border-color: $link;
+    }
+  }
+}
+
+h1 {
+    font-size: 120px;
+    line-height: 1em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 200%;
+    color: $link;
+}
+
+.rule {
+    font-size: 110%;
+    font-weight: bold;
+}

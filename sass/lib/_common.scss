@@ -1,0 +1,42 @@
+// Common
+
+body {
+    font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
+    background: $bg;
+    color: $base;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    color: $link;
+
+    &:hover {
+        color: $hover;
+    }
+
+}
+
+::selection,
+::-moz-selection {
+    background: $selection;
+    color:#fff;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    a,a:hover {
+        color: $base;
+        text-decoration: none;
+    }
+}
+
+// mixin
+@mixin clearfix() {
+    &:before,
+    &:after {
+        display: table;
+        content: " ";
+    }
+    &:after {
+        clear: both;
+    }
+}

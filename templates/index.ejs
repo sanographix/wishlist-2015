@@ -1,0 +1,65 @@
+<% var
+pageTitle = "Toppage";
+pageId = "index";
+pageUrl = "";
+pageDescription = "Awesome site";
+%>
+<% include _header %>
+
+  <div class="container">
+    <header class="section">
+      <h1>We WISHLIST you a merry christmas<span style="color: #ed3f38;">.</span></h1>
+      <h3>ことしもやってきたウィッシュリストプレゼント交換会 <span style="font-size: 150%;">2015</span></h3>
+      <div class="btn-wrapper">
+        <a href="https://docs.google.com/spreadsheets/d/1d2hBQaulMERQaYIw39O_9bN8tu9lgiVpNmwYas_zh7g/edit?usp=sharing" class="btn btn-large" onClick="ga('send', 'event', 'join', 'Click');">参加する</a>
+      </div>
+    </header>
+    <div class="section">
+      <h2>ウィッシュリストプレゼント交換会とは</h2>
+      <p>
+        Amazonウィッシュリストを晒してプレゼントを交換しあう、参加者の良心に任せた行事です。（<a href="https://docs.google.com/spreadsheets/d/1d2hBQaulMERQaYIw39O_9bN8tu9lgiVpNmwYas_zh7g/edit?usp=sharing">去年の様子</a>）
+      </p>
+      <h2>ルール</h2>
+      <ol class="rule">
+        <li>プレゼント欲しい人は自分のamazonウィッシュリストを記入する（2015年12月22日まで）</li>
+        <li>リスト確定後、自分の一つ上の行のウィッシュリストから何かひとつプレゼントを贈ってあげる
+          <ul>
+            <li>リスト先頭の人は一番最後の人へ贈る</li>
+            <li>お届け日指定で25日に届くようにする</li>
+          </ul>
+        </li>
+        <li>25日になったらプレゼントが届く（かもしれない）</li>
+      </ol>
+      <h2>TIPS: 本名を隠してプレゼントを受け取る方法</h2>
+      <p>Amazonの住所設定で、</p>
+      <ol>
+        <li><strong>送り先の名前欄はハンドルネームにする</strong></li>
+        <li><strong>住所欄の最後に「(本名)方」にする</strong></li>
+      </ol>
+      <p>……という感じにすると、本名をインターネット上に公開せず荷物を受け取れます。</p>
+      </ul>
+      <h2>諸注意</h2>
+      <ol>
+        <li>基本的に個人の良心に任せます。ほんとに届いたらもうけものくらいの気持ちでいましょう。届かなくても泣かない。</li>
+        <li>気軽に買えそうな金額の品物も一つくらいはリストにいれときましょう。</li>
+        <li>リストの優先度設定でこれ欲しいアピール歓迎です。</li>
+      </ol>
+      <h2>シェアする</h2>
+      <a href="https://twitter.com/share?text=【🎁クリスマスパーティを開く暇もない現代社会の皆様へお知らせです🎄】 🎅ことしもやってきたウィッシュリストプレゼント交換会2015" class="btn btn-tw" onClick="ga('send', 'event', 'share-twitter', 'Click');">
+        <img src="http://static.tumblr.com/xlsgtjb/mmZndl3sh/twitter.svg" width="18px">
+        ツイート
+      </a>
+      <a href="http://www.facebook.com/sharer.php?u=http://sanographix.github.io/wishlist-2015/" class="btn btn-fb" onClick="ga('send', 'event', 'share-fb', 'Click');">
+        <img src="http://static.tumblr.com/xlsgtjb/dB1ndl3rn/facebook.svg" width="18px">
+        シェア
+      </a>
+    </div>
+    <footer class="section">
+      <small>
+        主催: <a href="https://twitter.com/cube10">@cube10</a> / <a href="https://twitter.com/sanographix">@sanographix</a><br/>
+        本企画への参加に関するいかなる被害・損害について、主催者は一切の責任を負わないものとします。
+      </small>
+    </footer>
+  </div>
+
+<% include _footer %>
